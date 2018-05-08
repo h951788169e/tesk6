@@ -19,13 +19,20 @@ header{
 .head1\.1{float: left;
     padding: 0.5em 0.6em 0.5em 0.6em;
     color: white;
+    font-size: 1.2em;
+    background-color:#55a8b3;
+    border-radius: 8px;
+    border: none;
 
 }
 .head1\.2{float: left;
     color: #68cdd5;
-    padding: 0.5em 0.6em 0.5em 0.6em;
     border-radius: 8px;
     background-color: white;
+    font-size: 1.2em;
+    padding: 0.5em 0.6em 0.5em 0.6em;
+    border: none;
+
 }
 .head2{width: 42px;
     height: 44px;
@@ -33,6 +40,7 @@ header{
     background-repeat:no-repeat;
     background-position:-124px -10px;
     transform: scale(0.6);
+
 }
 main{
     min-height: 100%;
@@ -89,19 +97,15 @@ main{
     text-decoration: none;
     display: block;
 }
-
 /* 鼠标移上去后修改下拉菜单链接颜色 */
 .dropdown-content a:hover {background-color: #f1f1f1}
+
 
 /* 在鼠标移上去后显示下拉菜单 */
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
-/* 当下拉内容显示后修改下拉按钮的背景颜色 */
-.dropdown:hover .dropbtn {
-    background-color: #3e8e41;
-}
 .dropbtn2{
     padding: 0;
     font-size: 16px;
@@ -151,12 +155,11 @@ footer{width: 100%;
     bottom: 0px;
     background-color: #f8fafb;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     border-top: 1px solid #afbac0;
 }
-.footer1{margin-right: 10%;}
-.footer3{margin-left: 10%}
+
 .footer2{width: 94px;
     height: 94px;
     background-image:url(css_sprites.png);
@@ -228,6 +231,7 @@ footer{width: 100%;
 
 }
 .box2{display: inline-block;
+    white-space: nowrap;
 }
 .np2{display: inline-block;
     color: red;
